@@ -1,18 +1,36 @@
 {
   "manifest_version": 3,
-  "name": "Flat Tab",
-  "version": "1.0.0",
-  "description": "A flat and minimalist dark theme for Chrome.",
+  "name": "Flat Tab Theme",
+  "version": "1.0.2",
+  "description": "A flat and minimalist dark theme with pink and green highlights.",
   "theme": {
     "colors": {
-      "frame": [30, 30, 30],
-      "toolbar": [50, 50, 50],
-      "tab_text": [255, 255, 255],
-      "bookmark_text": [200, 200, 200],
-      "ntp_background": [30, 30, 30],
-      "ntp_text": [255, 255, 255],
-      "button_background": [50, 50, 50]
+      "frame": [40, 42, 54],
+      "toolbar": [50, 52, 64],
+      "tab_text": [248, 248, 242],
+      "tab_background_text": [130, 130, 140],
+      "tab_selected": [189, 147, 249],
+      "tab_background_separator": [68, 71, 90],
+      "toolbar_top_separator": [68, 71, 90],
+      "bookmark_text": [80, 250, 123],
+      "ntp_background": [40, 42, 54],
+      "ntp_text": [248, 248, 242],
+      "button_background": [68, 71, 90],
+      "toolbar_button_icon": [248, 248, 242],
+      "omnibox_text": [248, 248, 242],
+      "omnibox_background": [50, 52, 64],
+      "omnibox_border": [80, 82, 110],
+      "omnibox_text_selected": [40, 42, 54],
+      "omnibox_selected_background": [189, 147, 249]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat"
     }
   },
-  "icons": {}
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
 }
