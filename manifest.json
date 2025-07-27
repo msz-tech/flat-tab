@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Flat Tab",
+  "version": "1.0.0",
+  "description": "A flat and minimalist dark theme for Chrome.",
+  "theme": {
+    "colors": {
+      "frame": [30, 30, 30],
+      "toolbar": [50, 50, 50],
+      "tab_text": [255, 255, 255],
+      "bookmark_text": [200, 200, 200],
+      "ntp_background": [30, 30, 30],
+      "ntp_text": [255, 255, 255],
+      "button_background": [50, 50, 50]
+    }
+  },
+  "icons": {}
+}
