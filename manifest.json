@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "description": "A flat and minimalist dark theme for Chrome.",
   "theme": {
+    "images": {
+      "theme_frame": "images/theme_background.webp"
+    },
     "colors": {
       "frame": [30, 30, 30],
       "toolbar": [50, 50, 50],
@@ -12,6 +15,10 @@
       "ntp_background": [30, 30, 30],
       "ntp_text": [255, 255, 255],
       "button_background": [50, 50, 50]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat"
     }
   },
   "icons": {
