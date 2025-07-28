@@ -1,15 +1,14 @@
 {
   "manifest_version": 3,
   "name": "Flat Tab Theme",
-  "version": "1.0.2",
-  "description": "A flat and minimalist dark theme with pink and green highlights.",
+  "version": "1.0.3",
+  "description": "A clean, flat, and minimalist dark theme for Chrome with a blue-grey UI and green bookmark accents.",
   "theme": {
     "colors": {
       "frame": [40, 42, 54],
       "toolbar": [50, 52, 64],
       "tab_text": [248, 248, 242],
       "tab_background_text": [130, 130, 140],
-      "tab_selected": [189, 147, 249],
       "tab_background_separator": [68, 71, 90],
       "toolbar_top_separator": [68, 71, 90],
       "bookmark_text": [80, 250, 123],
@@ -21,7 +20,7 @@
       "omnibox_background": [50, 52, 64],
       "omnibox_border": [80, 82, 110],
       "omnibox_text_selected": [40, 42, 54],
-      "omnibox_selected_background": [189, 147, 249]
+      "omnibox_selected_background": [68, 71, 90]
     },
     "properties": {
       "ntp_background_alignment": "bottom",
